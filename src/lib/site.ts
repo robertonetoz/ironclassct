@@ -19,8 +19,7 @@ export const SITE = {
   name: "Iron Class CT",
   fullName: "Iron Class Training Center",
   tagline: "O seu treino em outro nível.",
-  /* Provisório: trocar pelo domínio real quando o site for publicado. */
-  url: "https://www.ironclassct.com.br",
+  url: "https://ironclassct.vercel.app",
   whatsapp: whatsappLink("Olá! Vim pelo site da Iron Class e quero saber mais sobre os planos."),
   whatsappLabel: "(34) 99726-0225",
   phone: "(34) 3229-2489",

@@ -28,10 +28,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Iron Class CT | Academia 24h em Uberlândia",
     description,
+    url: "/",
+    siteName: SITE.fullName,
     locale: "pt_BR",
     type: "website",
-    images: [{ url: "/logo-iron-class.png", width: 500, height: 500, alt: "Iron Class Training Center" }],
   },
+  /* A imagem do link compartilhado vem de opengraph-image.tsx. */
+  twitter: { card: "summary_large_image" },
 };
 
 export const viewport: Viewport = {
